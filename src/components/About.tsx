@@ -13,10 +13,7 @@ const About: React.FC = () => {
   ];
 
   return (
-    <section
-      id="about"
-      className="py-20 bg-slate-800"
-    >
+    <section id="about" className="py-20 bg-slate-800">
       <div className="container mx-auto px-6">
         <div
           ref={ref}
@@ -30,7 +27,7 @@ const About: React.FC = () => {
               About Me
             </h2>
             <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-              Fresh graduate with fresh ideas and endless enthusiasm
+              Fresh graduate with innovative ideas and endless enthusiasm
             </p>
           </div>
 
@@ -43,8 +40,8 @@ const About: React.FC = () => {
               <p className="text-lg text-slate-400 leading-relaxed">
                 I'm a fresh IT graduate with a passion for software development
                 and a hunger to learn. Having just completed my degree, I bring
-                modern knowledge of the latest technologies and a fresh
-                perspective to problem-solving.
+                up-to-date knowledge of the latest technologies and a fresh
+                perspective on problem-solving.
               </p>
               <p className="text-lg text-slate-400 leading-relaxed">
                 During my studies, I've worked on various projects using
@@ -76,9 +73,7 @@ const About: React.FC = () => {
                   <div className="text-3xl font-bold text-slate-100 mb-2">
                     {stat.value}
                   </div>
-                  <div className="text-slate-400 font-medium">
-                    {stat.label}
-                  </div>
+                  <div className="text-slate-400 font-medium">{stat.label}</div>
                 </div>
               ))}
             </div>

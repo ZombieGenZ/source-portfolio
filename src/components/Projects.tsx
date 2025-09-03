@@ -59,8 +59,7 @@ const Projects: React.FC = () => {
         "PostCSS",
         "Autoprefixer",
       ],
-      githubUrl:
-        "https://github.com/yourusername/vite-react-typescript-starter",
+      githubUrl: "https://github.com/ZombieGenZ/source-portfolio",
       liveUrl: "https://buidangkhoa.dev/",
       difficulty: "Intermediate",
       year: "2025",

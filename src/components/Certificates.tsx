@@ -48,7 +48,7 @@ const Certificates: React.FC = () => {
       issuer: "Xưởng thực hành",
       date: "2025",
       description:
-        "English language and design skills development through interactive Trip Titans project.",
+        "Development of English language and design skills through the interactive Trip Titans project.",
       image:
         "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&w=800&h=450&q=80",
       verifyUrl:
