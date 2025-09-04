@@ -18,8 +18,26 @@ const Certificates: React.FC = () => {
 
   const certificates: Certificate[] = [
     {
+      title: "Foundational C# with Microsoft",
+      issuer: "FreeCodeCamp",
+      date: "2025",
+      description:
+        "Comprehensive foundational course in C# programming language in collaboration with Microsoft, covering core programming concepts, object-oriented programming, and .NET framework fundamentals.",
+      image:
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80",
+      verifyUrl:
+        "https://www.freecodecamp.org/certification/fccb135f044-30b4-4cb3-9fdf-a40a16dec796/foundational-c-sharp-with-microsoft",
+      type: "Certificate",
+      skills: [
+        "C#",
+        ".NET Framework",
+        "Object-Oriented Programming",
+        "Microsoft Technologies",
+      ],
+    },
+    {
       title: "Café with my Beefriends",
-      issuer: "Xưởng thực hành",
+      issuer: "Xuong Thuc Hanh FPT Polytechnic",
       date: "2025",
       description:
         "Collaborative project developing English communication, teamwork, video production and editing skills through creative café-themed content.",
@@ -28,11 +46,11 @@ const Certificates: React.FC = () => {
       verifyUrl:
         "https://xuongthuchanh.poly.edu.vn/certificate/TB00417/6839570cc644eba594beac24",
       type: "Certificate",
-      skills: ["Tiếng Anh", "Làm việc nhóm", "Quay video", "Edit video"],
+      skills: ["English", "Teamwork", "Video Production", "Video Editing"],
     },
     {
       title: "Ezy English: A Week Without Screens",
-      issuer: "Xưởng thực hành",
+      issuer: "Xuong Thuc Hanh FPT Polytechnic",
       date: "2025",
       description:
         "English language proficiency and creative design skills through the 'A Week Without Screens' challenge project.",
@@ -41,11 +59,11 @@ const Certificates: React.FC = () => {
       verifyUrl:
         "https://xuongthuchanh.poly.edu.vn/certificate/TB00417/68340a443f84d782022be648",
       type: "Certificate",
-      skills: ["Tiếng Anh", "Thiết kế"],
+      skills: ["English", "Design"],
     },
     {
       title: "Ezy English: Trip Titans",
-      issuer: "Xưởng thực hành",
+      issuer: "Xuong Thuc Hanh FPT Polytechnic",
       date: "2025",
       description:
         "Development of English language and design skills through the interactive Trip Titans project.",
@@ -54,7 +72,7 @@ const Certificates: React.FC = () => {
       verifyUrl:
         "https://xuongthuchanh.poly.edu.vn/certificate/TB00417/682d772a16194e35cb598116",
       type: "Certificate",
-      skills: ["Tiếng Anh", "Thiết kế"],
+      skills: ["English", "Design"],
     },
     {
       title: "Outstanding Academic Achievement - Fall 2024",
@@ -68,8 +86,8 @@ const Certificates: React.FC = () => {
       skills: [
         "Academic Excellence",
         "Time Management",
-        "Self-study skills",
-        "Teamwork skills",
+        "Self-study Skills",
+        "Teamwork Skills",
       ],
     },
     {
@@ -81,7 +99,7 @@ const Certificates: React.FC = () => {
       image:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&h=450&q=80",
       type: "Award",
-      skills: ["Academic Excellence", "Time Management", "Self-study skills"],
+      skills: ["Academic Excellence", "Time Management", "Self-study Skills"],
     },
   ];
 
