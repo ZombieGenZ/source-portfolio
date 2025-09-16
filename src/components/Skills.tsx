@@ -56,13 +56,13 @@ const Skills: React.FC = () => {
       category: "Languages",
     },
     {
-      name: "CSS3",
+      name: "CSS",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       level: 80,
       category: "Languages",
     },
     {
-      name: "HTML5",
+      name: "5HTM",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       level: 85,
       category: "Languages",
